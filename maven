@@ -1,0 +1,8 @@
+Stash is temporary storage location for storing the current state of work.
+ 
+command: git stash list            // list all stashes
+         git stash show stash_id   // display detailed info about stash
+         git stash save "message"  // create an stash index
+         git stash apply stash_id  // bring out the temporary stored files from stash location into working/staging area and also keeps one copy in stash as a backup
+         git stash pop stash_id    // bring out the temporary stored files from stash location into working/staging area and also deletes the stash copy from stash location
+         git stash drop stash_id   // delete stashes from stash location
